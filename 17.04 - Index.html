@@ -1,0 +1,4262 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Extent Framework</title>
+  <link rel="apple-touch-icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+  <link rel="shortcut icon" href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png">
+  <link href="https://cdn.rawgit.com/extent-framework/extent-github-cdn/cd00a5e/spark/css/style.css" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style> </style>
+</head>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+
+
+
+<body class="test-view  standard">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+            <div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Extent Framework</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">4/17/2019 9:57:34 AM</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="side-nav-controls">
+    <ul>
+      <li>
+        <a href="#" class="lightsout" style="color:#8a8a8a;">
+          <i class="fa fa-desktop"></i>"</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+            <div class="page-container">
+                <div class="main-content">
+                    <div class="test-wrapper row">
+                        <div class="test-list">
+                            <div class="test-list-tools">
+                                <ul class="tools pull-left">
+                                    <li>
+                                        <a href="">
+                                            <span class="font-size-14">Tests</span>
+                                        </a>
+                                    </li> 
+                                </ul>
+                                <ul class="tools text-right">
+									<li class="user-profile dropdown dropdown-animated scale-left">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+											<i class="fa fa-exclamation-circle"></i>
+										</a>
+										<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a status="pass" class="dropdown-item" href="#"><span>Pass</span><span class="status success pull-right"></span></a>											<a status="fail" class="dropdown-item" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>																																												<a status="skip" class="dropdown-item" href="#"><span>Skip</span><span class="status warning pull-right"></span></a>											<div class="dropdown-divider"></div>
+											<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+										</ul>
+									</li>
+																		                                </ul>
+                            </div>
+                            <div class="test-list-wrapper scrollable">
+                                <ul class="test-list-item">
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">ActivitiesTests</p> 
+													<p class="duration text-sm">0h:0m:0s+004ms</p> 
+													<span class="datetime">09:57:34 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">ActivitiesTests</h5>
+															<span class='badge badge-success'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-danger'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-default'>0h:0m:0s+004ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="mt-4">
+	
+	<div class="accordion">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">SuccessfulDisplayingAssignedToForApplicationReceived</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+        TestCase #733
+        Title: Check that display 'Assigned to: [campaignName]' for 'Application Received' with campaign status 'Published'
+        Steps:  1. Go to 'https://dev.ambassadher.co/Opportunity/[campaignId]' as logged Influencer
+                2. Add activity to influencer from DB
+                3. Go to 'https://dev.ambassadher.co/Activities' and refresh page
+
+                ER: 1. Display 'Assigned to: [Company name]' 
+                2. Display 'Application Received'
+                3. [activityContent] display 'Application Received' in [InfluencerActivity] table 
+                </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+	</div>
+
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">ApplyFormTests</p> 
+													<p class="duration text-sm">0h:0m:0s+000ms</p> 
+													<span class="datetime">09:57:34 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">ApplyFormTests</h5>
+															<span class='badge badge-success'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-danger'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-default'>0h:0m:0s+000ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="mt-4">
+	
+	<div class="accordion">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">AppropriateApplyFormIsDisplayed</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+         TestCase #401
+         Title: Check that Application page is displayed after click 'Apply' button 
+         Steps:
+            1. Go to Application Form https://dev.ambassadher.co/Opportunity/Apply/{campaignId}
+            2. Check That applicationForm is displayed          
+            ER:  Application Form is displayed 
+        </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">AppropriateSubmitFormIsDisplayed</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+         TestCase #
+         Title: Check that Application page is displayed after click 'Apply' button 
+         Steps:
+            1. Go to Application Form https://dev.ambassadher.co/Opportunity/Apply/{campaignId}
+            2. Check That applicationForm is displayed          
+            ER:  Application Form is displayed 
+        </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+	</div>
+
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">DashboardTests</p> 
+													<p class="duration text-sm">0h:0m:0s+000ms</p> 
+													<span class="datetime">09:57:34 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">DashboardTests</h5>
+															<span class='badge badge-success'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-danger'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-default'>0h:0m:0s+000ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="mt-4">
+	
+	<div class="accordion">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckingThatPriceChangeForEarnedLifetime</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                        TestCase #526
+                        Title: Check that price in 'Earned Lifetime' change 
+                        1. Sign in system as Influencer
+                        2. Add Influencer Payment With Suttle Status for currenct user
+                        3. Refresh page and Pay attention to 'Earned Lifetime' in 'Earnings' block
+                        ER: 1. Shows the amount of earnings for all time                      
+                            2. The amount in 'Earned Lifetime' increased by the amount that was specified in Payments page
+                        </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckingThatPriceChangeForLifetimePayouts</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                        TestCase #538
+                        Title: Check that price is change for 'Lifetime Payouts' for 'All Influencers'
+                        1. Sign in system as Influencer
+                        2. Add Influencer Payment With Suttle Status for currenct user
+                        3. Refresh page and go to All influencer item and Pay attention to 'Lifetime Payouts' in 'Earnings' block 
+                        ER: 1. Shows the amount of earnings for all time for all Influencers 
+                            2. The amount in 'Lifetime Payouts' increased by the amount that was specified in Payments page
+                        </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckingThatValuePotentialThisMonthIsChangesForCash</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                        TestCase #548
+                        Title: Checking that the value is change in 'Potential This Month' for CASH
+                        1.  Sign in system as Influencer
+                        2. As an admin go to https://admindev.ambassadher.co/Campaigns/[campaignId]
+                        3. click on 'Activities' button in the toolbar 
+                        4. Click on number in 'Cash Value' field
+                        5. Enter valid value and click 'Tick' icon
+                        6. Come back to https://dev.ambassadher.co/Dashboard and refresh page
+                        ER: Cash value has been increased/decreased for 'Potential This Month' 
+                            by the amount that was indicated on the 'Activities' page
+                        </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckingThatValuePotentialThisMonthIsChangesForRetail</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                        TestCase #549
+                        Title: Checking that the value in эPotential This Monthэ changes  for retail 
+                        1.  Sign in system as Influencer
+                        2. As an admin go to https://admindev.ambassadher.co/Campaigns/[campaignId]
+                        3. click on 'Activities' button in the toolbar 
+                        4. Click on number in 'Retail Value' field
+                        5. Enter valid value and click 'Tick' icon
+                        6. Come back to https://dev.ambassadher.co/Dashboard and refresh page
+                        ER: Retail  has been increased/decreased for 'Potential This Month' 
+                            by the amount that was indicated on the 'Activities' page
+                        </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckThatPriceInEarnedThisMonthChangeAfterCompletedOpportunities</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                        TestCase #1109
+                        Title: 
+                        1. 
+                        2. 
+                        3. 
+                        ER: 1.                     
+                            2. 
+                        </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckThatPriceInEarnedThisMonthForAllInfluencer</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                        TestCase #1109
+                        Title: 
+                        1. 
+                        2. 
+                        3. 
+                        ER: 1.                     
+                            2. 
+                        </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckThatValueInThisMonthPotentialPayoutsIsChanged</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                        TestCase #550
+                        Title: Checking that the value in 'This Month Potential Payouts' changes 
+                        1. Sign in system as Influencer
+                        2. Click on the 'All Influencers' radio button in 'Earnings' block 
+                        3.Pay attention on the 'This Month Potential Payouts' value
+                        4. As an admin go to https://admindev.ambassadher.co/Campaigns/[campaignId] and click 'Activities' button
+                        5. Click on number in 'Total Value' field, Enter valid value and click 'Tick' icon
+                        6. Come back to https://dev.ambassadher.co/Dashboard and refresh page
+                        7. Click on the 'All Influencers' radio button in 'Earnings' block 
+                        ER: Value has been increased decreased for 'This Month Potential Payouts' 
+                        by the amount that was indicated on the 'Activities' page
+            </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">DisplayCorrectEngagementRateValueForInstagram</div>
+						<div class="status-avatar float-right skip-bg">
+							<i class="fa fa-long-arrow-right text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                        TestCase #544
+                        Title: Check that display correct 'Engagement Rate' value  for 'Instagram' after account confirmation
+                        1. Go to 'https://dev.ambassadher.co/Influencer' as a logged without any social networks
+                        2. Successfully add and verify Instagram account
+                        3.Go to https://dev.ambassadher.co/Dashboard and scroll to the 'Connected Accounts' block 
+                        ER: Display new number for 'Engagement Rate' which is calculated by the formula:
+                        'Engagement Rate =( (number comments + number Likes) / number Followers)' 
+                        </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>09:57:34</td>
+				<td>
+Until bug with Instagram verification isn't fixed									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+	</div>
+
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">EditProfileTests</p> 
+													<p class="duration text-sm">0h:0m:0s+001ms</p> 
+													<span class="datetime">09:57:34 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">EditProfileTests</h5>
+															<span class='badge badge-success'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-danger'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-default'>0h:0m:0s+001ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+One or more child tests had errors									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+<div class="mt-4">
+	
+	<div class="accordion">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">SuccessInstaAccountVerification</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+         TestCase #306
+         Title: Successfully verify Instagram profile in the 'Profiles' block with place the code in Bio block
+         Steps:
+            1. Sign in system as Influencer
+            2. Go to 'Edit profile' page https://dev.ambassadher.co/Influencer
+            3.Scroll page down to 'Profiles' block and choose 'Instagram' in 'Service' drop down filed
+            4. Enter user name of Instagram account and click 'Add' button
+            5. Check that account is marked public, add confirmation code in Bio block
+            6. Return to profile page and click 'Verify' button 
+            7. Click 'Ok' button on Success pop-up 
+            ER: Social network is confirmed.
+        </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>OpenQA.Selenium.WebDriverException : unknown error: Element is not clickable at point (855, 2050)
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17763 x86_64)at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at Core.Framework.PageObjects.EditProfilePage.ClickAddNewProfileButton() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\PageObjects\EditProfilePage.cs:line 40
+   at InfluencerPortal.Tests.EditProfileTests.SuccessInstaAccountVerification() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\EditProfilePageTests.cs:line 68</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+	</div>
+
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">FeatureOpportunitiesTests</p> 
+													<p class="duration text-sm">0h:0m:0s+000ms</p> 
+													<span class="datetime">09:57:34 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">FeatureOpportunitiesTests</h5>
+															<span class='badge badge-success'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-danger'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-default'>0h:0m:0s+000ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="mt-4">
+	
+	<div class="accordion">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckThatCampaignListMatchWithDB</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+         TestCase #1572
+         Title: Check that Campaign List is displayed correctly on Feature Opportunities list
+         Steps:
+            1. Go to https://dev.ambassadher.co/opportunities.html 
+            2. Check that list contains last 6 campaign in descending order by target end date,
+            of those campaigns that have the is featured flag checked, and that are currently published or in progress.          
+            ER:  Campaign list is match with DB 
+        </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+	</div>
+
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">MembershipTests</p> 
+													<p class="duration text-sm">0h:0m:0s+000ms</p> 
+													<span class="datetime">09:57:34 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">MembershipTests</h5>
+															<span class='badge badge-success'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-danger'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-default'>0h:0m:0s+000ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+One or more child tests had errors									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+<div class="mt-4">
+	
+	<div class="accordion">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CancelStatusInSubscriptionAndSubscriptionActivityBlockForStripe</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                TestCase# 1041
+                Title: Check 'Cancel' status for trial 'Stripe' subscription after successful cancellation from Influencer 
+                Steps: 1. Go to 'https://dev.ambassadher.co/Membership'  as logged without any subscription
+                2. Click 'Start My Trial' under 'Pay with Stripe(Recommended!)' item
+                3. Enter valid Email/Card Number/Date/CVC 
+                4. Click 'Pay 2.99' butoon
+                5. Click 'Cancel' button
+                6. Click 'Yes, cancel' button
+                7. Click 'Ok' button
+                Actual result: 1. Display 'Cancel' status in 'Subscription' block 
+                2. Stat Date  = Today in 'Subscription' block 
+                3. End Day = after today 
+                4. Display 'Cancel' status in 'Subscription Activity' block
+                5. Date = today in 'Subscription Activity' block</div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>OpenQA.Selenium.ElementNotVisibleException : element not interactable
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17763 x86_64)at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at Core.Framework.PageObjects.MembershipPage.ClickStartMyTralButtonForStripe() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\PageObjects\MembershipPage.cs:line 108
+   at InfluencerPortal.Tests.MembershipTests.CancelStatusInSubscriptionAndSubscriptionActivityBlockForStripe() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\MembershipTests.cs:line 325</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckNewRecordInSubsriptionActivityBlockForBraintree</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                TestCase# 1036,1035,1034
+                Title: Check new record in 'Subscription Activity' block for 'Braintree'
+                Steps: 1. Go to 'https://dev.ambassadher.co/Membership'  as logged without any subscription
+                2. Add record to [Membership] to DB for Braintree
+                3. Add several record to [MembershipEvent] table  in DB  and go to https://dev.ambassadher.co/Membership
+                Actual result: 1. In 'Subscription Activity' block display all records witch were added in [MembershipEvent] table  in DB</div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckNewRecordInSubsriptionActivityBlockForStripe</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                TestCase# 1884
+                Title: Check new record in 'Subscription Activity' block for 'Stripe'
+                Steps: 1. Go to 'https://dev.ambassadher.co/Membership'  as logged without any subscription
+                2. Click 'Start My Trial' under 'Pay with Stripe(Recommended!)' item
+                3. Enter valid Email/Card Number/Date/CVC 
+                4. Click 'Pay 2.99' butoon
+                3. Add several record to [MembershipEvent] table  in DB  and go to https://dev.ambassadher.co/Membership
+                Actual result: 1. In 'Subscription Activity' block display all records witch were added in [MembershipEvent] table  in DB</div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">SuccessfulDisplayActiveStatusForCardInSubscriptionBlock</div>
+						<div class="status-avatar float-right skip-bg">
+							<i class="fa fa-long-arrow-right text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                TestCase# 441
+                Titile: Successful display Active status for 'Braintree(Card)' system 
+                1. Go to https://dev.ambassadher.co/Membership  as logged without any subscription
+                2. Click on 'Card' item
+                3. Enter valid Card Number/Date
+                4. Click 'Start My Trial' button
+                Expected result: 
+                1. Display 'Active' status                                                            
+                2. Start date = Today in 'Subscriptions' block 
+                3. End date = after 1 year in 'Subscriptions' block 
+                </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>09:57:34</td>
+				<td>
+Wait fixing bug for cancel button									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">SuccessfulDisplayActiveStatusForNewPayPalInSubscriptionBlock</div>
+						<div class="status-avatar float-right skip-bg">
+							<i class="fa fa-long-arrow-right text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                TestCase# 487
+                Titile: Check 'Active' status in 'Subscription' block for new 'PayPal' subscription  
+                1. Go to https://dev.ambassadher.co/Membership  as logged without any subscription
+                2. Click on 'PayPal' item and click on 'PayPal Make a purchase'
+                3. Click 'Create new account'              
+                4. Fill in all inputs valid information and click 'Continue' button
+                5. Select way to pay and click 'Continues' button and click 'Agree & Continue' button
+                6. Click 'Start My Trial' button
+                Expected result: 
+                1. Display 'Active' status                                                            
+                2. Start date = Today in 'Subscriptions' block 
+                3. End date = after 1 year in 'Subscriptions' block 
+                </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>09:57:34</td>
+				<td>
+Wait fixing bug for cancel button									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">SuccessfulDisplayActiveStatusForPayPalInSubscriptionBlock</div>
+						<div class="status-avatar float-right skip-bg">
+							<i class="fa fa-long-arrow-right text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                TestCase# 483
+                Titile: Successful display active status for 'Braintree(PayPal)' system 
+                1. Go to https://dev.ambassadher.co/Membership  as logged without any subscription
+                2. Click on 'PayPal' item and click on 'PayPal Make a purchase'
+                3. Fill in all inputs valid information and click 'Sign In' button
+                4. Select way to pay and click 'Continues' button and click 'Agree & Continue' button
+                5. Click 'Start My Trial' button
+                Expected result: 
+                1. Display 'Active' status                                                            
+                2. Start date = Today in 'Subscriptions' block 
+                3. End date = after 1 year in 'Subscriptions' block 
+                </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-long-arrow-right text-skip"></i></td>
+				<td>09:57:34</td>
+				<td>
+Wait fixing bug for cancel button									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">SuccessfulDisplayTrialStatusForStripeInSubscriptionActivityBlock</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                TestCase# 1033
+                Title: Successful display Trial status for 'Stripe' system in 'Subscription Activity' block 
+                Steps: 1. Go to 'https://dev.ambassadher.co/Membership'  as logged without any subscription
+                2. Click 'Start My Trial' under 'Pay with Stripe(Recommended!)' item
+                3. Enter valid Email/Card Number/Date/CVC 
+                4. Click 'Pay 2.99' butoon
+                Actual result: 1. In 'Date' displayed day when was connected 'Trial' subscription
+                        2. In 'Status' display 'Trial' status                                          
+                        3. In 'Amount' display '$0.00'
+                        </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>OpenQA.Selenium.ElementNotVisibleException : element not interactable
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17763 x86_64)at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at Core.Framework.PageObjects.MembershipPage.ClickStartMyTralButtonForStripe() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\PageObjects\MembershipPage.cs:line 108
+   at InfluencerPortal.Tests.MembershipTests.SuccessfulDisplayTrialStatusForStripeInSubscriptionActivityBlock() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\MembershipTests.cs:line 252</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">SuccessfulDisplayTrialStatusForStripeInSubscriptionBlock</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                TestCase# 462
+                Title: Successful display Trial status for 'Stripe' system in 'Subscription' block 
+                Steps: 1. Go to 'https://dev.ambassadher.co/Membership'  as logged without any subscription
+                2. Click 'Start My Trial' under 'Pay with Stripe(Recommended!)' item
+                3. Enter valid Email/Card Number/Date/CVC 
+                4. Click 'Pay 2.99' butoon
+                Actual result: 1. Display 'In Trial' status in 'Subscription' block 
+                2. Stat Date  = Today in 'Subscription' block 
+                3. End Day = after 1 year </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>OpenQA.Selenium.ElementNotVisibleException : element not interactable
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17763 x86_64)at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at Core.Framework.PageObjects.MembershipPage.ClickStartMyTralButtonForStripe() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\PageObjects\MembershipPage.cs:line 108
+   at InfluencerPortal.Tests.MembershipTests.SuccessfulDisplayTrialStatusForStripeInSubscriptionBlock() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\MembershipTests.cs:line 286</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+	</div>
+
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">OpportunitiesTests</p> 
+													<p class="duration text-sm">0h:0m:0s+000ms</p> 
+													<span class="datetime">09:57:34 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">OpportunitiesTests</h5>
+															<span class='badge badge-success'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-danger'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-default'>0h:0m:0s+000ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+One or more child tests had errors									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+<div class="mt-4">
+	
+	<div class="accordion">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckSearchResultListAfterСhoosingClient</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                    TestCase #387
+                    Title: Check that 'Search results' list is displayed campaign with brand that choose in 'Client' drop down
+                    Steps: 
+                    1. Go to 'https://dev.ambassadher.co/Opportunities' as logged Influencer
+                    2. Click on 'Client' dropdown
+                    3. Select one Client
+                    
+                    ER: Count of found results match with count of campaign in DB
+                        Campaign Title the same as DB
+                    </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckSearchResultListAfterСhoosingInterest</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                    TestCase #388
+                    Title: Check that 'Search results' list is displayed campaign with brand that choose in 'Interest' drop down
+                    Steps: 
+                    1. Go to 'https://dev.ambassadher.co/Opportunities' as logged Influencer
+                    2. Click on 'Interest' dropdown
+                    3. Select one Interest
+                    
+                    ER: Count of found results match with count of campaign in DB
+                        Campaign Title the same as DB
+                    </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckSearchResultListAfterСhoosingValueOnFilterBlock</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                    TestCase #390
+                    Title: Check that 'Opportunities Found' value is changed after change value on Filter block 
+                    Steps: 
+                    1. Add Influencer to Campaignt with [influencerStatus = Completed]
+                    2. Go to 'https://dev.ambassadher.co/Opportunities' as logged Influencer
+                    3. Set 'Completed' radio button on 'Filter' block
+                    
+                    ER: Count of found results match with count of campaign in DB
+                        Campaign Title the same as DB
+                    </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckStatusAfterSendSubmissionForm</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                    TestCases #508
+                    Title: Check that 'Your submission is being reviewed.' status is displayed after user send filled-in submission form
+                    Steps: 
+                    1. Add Influencer to Campaign with status 'Published' in DB
+                    2. Go to 'https://dev.ambassadher.co/Opportunities'
+                    
+                    ER: 'Your submission is being reviewed.' status is displayed on current Campaign preview block
+                    </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ChecktAllCampaignsAreDisplayedInSearchResultsList</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+         Test Case #386
+         Title: Check that all campaigns are displayed in 'Search results' list if select 'All' radio button 
+         Steps:
+            1. Go to https://dev.ambassadher.co/Opportunities as logged Influencer
+            2. Set 'All' radio button on 'Filter' block
+            3.Check that all campaigns are displayed in 'Search results' list
+            ER: Check that all campaigns are displayed in 'Search results' list
+        </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckThatCompleteCampaignInfluencerStatusIsDisplayedCorrectly</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+             TestCase #384
+             Title: Check that Campaign Influencer Status is displayed correctly if CampaignInfluencerStatus = Completed
+             Steps: 
+             1. Add to influencer Campaign with CampaignInfluencerStatus = Complete
+             2. Go to Opportunities Search Result page                    
+             ER: 'Your submission is being reviewed.' status is displayed on Campaign detail page.
+        </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>OpenQA.Selenium.WebDriverException : unknown error: Element <div class="radio-tab-button radio-tab-button-right">...</div> is not clickable at point (754, 410). Other element would receive the click: <div class="loadingoverlay" style="box-sizing: border-box; position: fixed; display: flex; flex-flow: column nowrap; align-items: center; justify-content: space-around; background: rgba(255, 255, 255, 0.8); top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483647; opacity: 1;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17763 x86_64)at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at Core.Framework.PageObjects.OpportunitiesPage.ClickCmpaignInfluencerStatusFilter(String status) in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\PageObjects\OpportunitiesPage.cs:line 140
+   at InfluencerPortal.Tests.OpportunitiesTests.CheckThatCompleteCampaignInfluencerStatusIsDisplayedCorrectly() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\OpportunitiesTests.cs:line 235</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+	</div>
+
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">OpportunityDetailActivityBlockTests</p> 
+													<p class="duration text-sm">0h:0m:0s+003ms</p> 
+													<span class="datetime">09:57:34 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">OpportunityDetailActivityBlockTests</h5>
+															<span class='badge badge-success'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-danger'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-default'>0h:0m:0s+003ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+One or more child tests had errors									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+<div class="mt-4">
+	
+	<div class="accordion">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionIsDisplayedNameIsDisplayedAllCampaignInfluencerStatus("ENROLLED",1,1,1)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionIsDisplayedNameIsDisplayedAllCampaignInfluencerStatus("COMPLETED",1,1,1)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionIsDisplayedNameIsDisplayedAllCampaignInfluencerStatus("SUBMITTED",1,1,1)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionIsDisplayedNameIsDisplayedAllCampaignInfluencerStatus("APPLIED",1,1,1)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionIsDisplayedNameIsDisplayedAllCampaignInfluencerStatus("INVITED",1,1,1)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionIsDisplayedNameIsDisplayedAllCampaignInfluencerStatus("NOTSELECTED",1,1,1)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionIsDisplayedNameIsDisplayedEngaged("ENROLLED",0,1,1)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionIsDisplayedNameIsDisplayedEngaged("COMPLETED",0,1,1)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionIsDisplayedNameIsDisplayedEngaged("SUBMITTED",0,1,1)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionIsNotDisplayedEngaged("ENROLLED",1,1,0)</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>Multiple failures or warnings in test:
+  1)   Instruction name isn't displayed 
+  Expected: False
+  But was:  True
+
+  2)   Instruction description isn't displayed 
+  Expected: False
+  But was:  True
+
+
+TearDown : System.ArgumentException : Illegal characters in path.at InfluencerPortal.Tests.OpportunityDetailActivityBlockTests.ActivityTabIsDisplayedInstructionIsNotDisplayedEngaged(String status, Int32 isTabPublic, Int32 showName, Int32 isInstructionPublic) in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\OpportunityDetailActivityBlockTests.cs:line 238
+
+--TearDown
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetFileName(String path)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)
+   at Core.Framework.BaseTest.TearDown() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\BaseTest.cs:line 56</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionIsNotDisplayedEngaged("COMPLETED",1,1,0)</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>Multiple failures or warnings in test:
+  1)   Instruction name isn't displayed 
+  Expected: False
+  But was:  True
+
+  2)   Instruction description isn't displayed 
+  Expected: False
+  But was:  True
+
+
+TearDown : System.ArgumentException : Illegal characters in path.at InfluencerPortal.Tests.OpportunityDetailActivityBlockTests.ActivityTabIsDisplayedInstructionIsNotDisplayedEngaged(String status, Int32 isTabPublic, Int32 showName, Int32 isInstructionPublic) in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\OpportunityDetailActivityBlockTests.cs:line 238
+
+--TearDown
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetFileName(String path)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)
+   at Core.Framework.BaseTest.TearDown() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\BaseTest.cs:line 56</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionIsNotDisplayedEngaged("SUBMITTED",1,1,0)</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>Multiple failures or warnings in test:
+  1)   Instruction name isn't displayed 
+  Expected: False
+  But was:  True
+
+  2)   Instruction description isn't displayed 
+  Expected: False
+  But was:  True
+
+
+TearDown : System.ArgumentException : Illegal characters in path.at InfluencerPortal.Tests.OpportunityDetailActivityBlockTests.ActivityTabIsDisplayedInstructionIsNotDisplayedEngaged(String status, Int32 isTabPublic, Int32 showName, Int32 isInstructionPublic) in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\OpportunityDetailActivityBlockTests.cs:line 238
+
+--TearDown
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetFileName(String path)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)
+   at Core.Framework.BaseTest.TearDown() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\BaseTest.cs:line 56</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionIsNotDisplayedNotEngaged("APPLIED",1,1,0)</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>Tab is displayed 
+  Expected: True
+  But was:  False
+
+TearDown : System.ArgumentException : Illegal characters in path.at InfluencerPortal.Tests.OpportunityDetailActivityBlockTests.ActivityTabIsDisplayedInstructionIsNotDisplayedNotEngaged(String status, Int32 isTabPublic, Int32 showName, Int32 isInstructionPublic) in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\OpportunityDetailActivityBlockTests.cs:line 216
+
+--TearDown
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetFileName(String path)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)
+   at Core.Framework.BaseTest.TearDown() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\BaseTest.cs:line 56</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionIsNotDisplayedNotEngaged("INVITED",1,1,0)</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>Tab is displayed 
+  Expected: True
+  But was:  False
+
+TearDown : System.ArgumentException : Illegal characters in path.at InfluencerPortal.Tests.OpportunityDetailActivityBlockTests.ActivityTabIsDisplayedInstructionIsNotDisplayedNotEngaged(String status, Int32 isTabPublic, Int32 showName, Int32 isInstructionPublic) in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\OpportunityDetailActivityBlockTests.cs:line 216
+
+--TearDown
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetFileName(String path)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)
+   at Core.Framework.BaseTest.TearDown() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\BaseTest.cs:line 56</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionIsNotDisplayedNotEngaged("NOTSELECTED",1,1,0)</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>Tab is displayed 
+  Expected: True
+  But was:  False
+
+TearDown : System.ArgumentException : Illegal characters in path.at InfluencerPortal.Tests.OpportunityDetailActivityBlockTests.ActivityTabIsDisplayedInstructionIsNotDisplayedNotEngaged(String status, Int32 isTabPublic, Int32 showName, Int32 isInstructionPublic) in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\OpportunityDetailActivityBlockTests.cs:line 216
+
+--TearDown
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetFileName(String path)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)
+   at Core.Framework.BaseTest.TearDown() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\BaseTest.cs:line 56</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionNameIsntDisplayedDescriptionIsDisplayedAllInfluencerStatus("ENROLLED",1,0,1)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionNameIsntDisplayedDescriptionIsDisplayedAllInfluencerStatus("COMPLETED",1,0,1)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionNameIsntDisplayedDescriptionIsDisplayedAllInfluencerStatus("SUBMITTED",1,0,1)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionNameIsntDisplayedDescriptionIsDisplayedAllInfluencerStatus("APPLIED",1,0,1)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionNameIsntDisplayedDescriptionIsDisplayedAllInfluencerStatus("INVITED",1,0,1)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsDisplayedInstructionNameIsntDisplayedDescriptionIsDisplayedAllInfluencerStatus("NOTSELECTED",1,0,1)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsNOTDisplayedInstructionIsDisplayedNameIsDisplayedNOtEngaged("APPLIED",0,1,1)</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>Multiple failures or warnings in test:
+  1)   Tab isn't displayed 
+  Expected: False
+  But was:  True
+
+  2)   Tab name isn't displayed 
+  Expected: False
+  But was:  True
+
+  3)   Tab description isn't displayed 
+  Expected: False
+  But was:  True
+
+
+TearDown : System.ArgumentException : Illegal characters in path.at InfluencerPortal.Tests.OpportunityDetailActivityBlockTests.ActivityTabIsNOTDisplayedInstructionIsDisplayedNameIsDisplayedNOtEngaged(String status, Int32 isTabPublic, Int32 showName, Int32 isInstructionPublic) in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\OpportunityDetailActivityBlockTests.cs:line 149
+
+--TearDown
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetFileName(String path)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)
+   at Core.Framework.BaseTest.TearDown() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\BaseTest.cs:line 56</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsNOTDisplayedInstructionIsDisplayedNameIsDisplayedNOtEngaged("INVITED",0,1,1)</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>Multiple failures or warnings in test:
+  1)   Tab isn't displayed 
+  Expected: False
+  But was:  True
+
+  2)   Tab name isn't displayed 
+  Expected: False
+  But was:  True
+
+  3)   Tab description isn't displayed 
+  Expected: False
+  But was:  True
+
+
+TearDown : System.ArgumentException : Illegal characters in path.at InfluencerPortal.Tests.OpportunityDetailActivityBlockTests.ActivityTabIsNOTDisplayedInstructionIsDisplayedNameIsDisplayedNOtEngaged(String status, Int32 isTabPublic, Int32 showName, Int32 isInstructionPublic) in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\OpportunityDetailActivityBlockTests.cs:line 149
+
+--TearDown
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetFileName(String path)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)
+   at Core.Framework.BaseTest.TearDown() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\BaseTest.cs:line 56</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsNOTDisplayedInstructionIsDisplayedNameIsDisplayedNOtEngaged("NOTSELECTED",0,1,1)</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>Multiple failures or warnings in test:
+  1)   Tab isn't displayed 
+  Expected: False
+  But was:  True
+
+  2)   Tab name isn't displayed 
+  Expected: False
+  But was:  True
+
+  3)   Tab description isn't displayed 
+  Expected: False
+  But was:  True
+
+
+TearDown : System.ArgumentException : Illegal characters in path.at InfluencerPortal.Tests.OpportunityDetailActivityBlockTests.ActivityTabIsNOTDisplayedInstructionIsDisplayedNameIsDisplayedNOtEngaged(String status, Int32 isTabPublic, Int32 showName, Int32 isInstructionPublic) in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\OpportunityDetailActivityBlockTests.cs:line 149
+
+--TearDown
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetFileName(String path)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)
+   at Core.Framework.BaseTest.TearDown() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\BaseTest.cs:line 56</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsNOTDisplayedInstructionIsnotDisplayedEngaged("ENROLLED",0,1,0)</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>Multiple failures or warnings in test:
+  1)   Tab isn't displayed 
+  Expected: False
+  But was:  True
+
+  2)   Instruction name isn't displayed 
+  Expected: False
+  But was:  True
+
+  3)   Instruction description isn't displayed 
+  Expected: False
+  But was:  True
+
+
+TearDown : System.ArgumentException : Illegal characters in path.at InfluencerPortal.Tests.OpportunityDetailActivityBlockTests.ActivityTabIsNOTDisplayedInstructionIsnotDisplayedEngaged(String status, Int32 isTabPublic, Int32 showName, Int32 isInstructionPublic) in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\OpportunityDetailActivityBlockTests.cs:line 171
+
+--TearDown
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetFileName(String path)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)
+   at Core.Framework.BaseTest.TearDown() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\BaseTest.cs:line 56</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsNOTDisplayedInstructionIsnotDisplayedEngaged("COMPLETED",0,1,0)</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>Multiple failures or warnings in test:
+  1)   Tab isn't displayed 
+  Expected: False
+  But was:  True
+
+  2)   Instruction name isn't displayed 
+  Expected: False
+  But was:  True
+
+  3)   Instruction description isn't displayed 
+  Expected: False
+  But was:  True
+
+
+TearDown : System.ArgumentException : Illegal characters in path.at InfluencerPortal.Tests.OpportunityDetailActivityBlockTests.ActivityTabIsNOTDisplayedInstructionIsnotDisplayedEngaged(String status, Int32 isTabPublic, Int32 showName, Int32 isInstructionPublic) in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\OpportunityDetailActivityBlockTests.cs:line 171
+
+--TearDown
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetFileName(String path)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)
+   at Core.Framework.BaseTest.TearDown() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\BaseTest.cs:line 56</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsNOTDisplayedInstructionIsnotDisplayedEngaged("SUBMITTED",0,1,0)</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>Multiple failures or warnings in test:
+  1)   Tab isn't displayed 
+  Expected: False
+  But was:  True
+
+  2)   Instruction name isn't displayed 
+  Expected: False
+  But was:  True
+
+  3)   Instruction description isn't displayed 
+  Expected: False
+  But was:  True
+
+
+TearDown : System.ArgumentException : Illegal characters in path.at InfluencerPortal.Tests.OpportunityDetailActivityBlockTests.ActivityTabIsNOTDisplayedInstructionIsnotDisplayedEngaged(String status, Int32 isTabPublic, Int32 showName, Int32 isInstructionPublic) in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\OpportunityDetailActivityBlockTests.cs:line 171
+
+--TearDown
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetFileName(String path)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)
+   at Core.Framework.BaseTest.TearDown() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\BaseTest.cs:line 56</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsNOTDisplayedInstructionIsnotDisplayedNotEngaged("APPLIED",0,1,0)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsNOTDisplayedInstructionIsnotDisplayedNotEngaged("INVITED",0,1,0)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ActivityTabIsNOTDisplayedInstructionIsnotDisplayedNotEngaged("NOTSELECTED",0,1,0)</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+	</div>
+
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="pass" author="" device="" tag=""> 
+											<div class="status-avatar pass-bg">
+												<i class="fa fa-check text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">OpportunityDetailPrerequisitesTests</p> 
+													<p class="duration text-sm">0h:0m:0s+001ms</p> 
+													<span class="datetime">09:57:34 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-pass">OpportunityDetailPrerequisitesTests</h5>
+															<span class='badge badge-success'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-danger'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-default'>0h:0m:0s+001ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="mt-4">
+	
+	<div class="accordion">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">DisplayApplyButtonForSeveralPrerequisites</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">TestCase #1906
+        Title: Check that display 'Apply' button for several Geo Prerequisites
+        Steps:  1. Add [geoCountryCode], [geoCity], [geoPostal] prerequisites with one values to DB 
+                2. Add [geoCountryCode], [geoCity], [geoPostal] prerequisites with another values to DB 
+                3. Add the same geo data to Influencer from step 1
+                3. Go to https://dev.ambassadher.co/Opportunity/[campaignId]
+
+                ER: 1. Display 'Apply' button
+                </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">DisplayApplyButtonWithCityPrerequisites</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">TestCase #1901
+        Title: Check that display 'Apply' button for City Prerequisites
+        Steps:  1. Add '[geoCity]' prerequisites to campaign from DB
+                2. Add '[addressCity]' to Influencer from DB
+                3. Go to https://dev.ambassadher.co/Opportunity/[campaignId]
+
+                ER: 1. Display 'Apply' button and Prerequisites with City
+                </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">DisplayApplyButtonWithCountryCodePrerequisites</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">TestCase #1900
+        Title: Check that display 'Apply' button for Country Prerequisites
+        Steps:  1. Add '[geoCountryCode]=Canada' prerequisites to campaign from DB
+                2. Add '[addressCountryCode]=Canada' to Influencer from DB
+                3. Go to https://dev.ambassadher.co/Opportunity/[campaignId]
+
+                ER: 1. Display 'Apply' button and Prerequisites with Country
+                </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">DisplayApplyButtonWithPostalPrerequisites</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">TestCase #1902
+        Title: Check that display 'Apply' button for Postal  Prerequisites
+        Steps:  1. Add '[geoPostal]' prerequisites to campaign from DB
+                2. Add '[addressPostal]' to Influencer from DB
+                3. Go to https://dev.ambassadher.co/Opportunity/[campaignId]
+
+                ER: 1. Display 'Apply' button and Prerequisites with Postal 
+                </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">DisplayApplyButtonWithTurnOnMembershipPrerequisites</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">TestCase #1898
+        Title: Check that display 'Apply' button with turn on 'Membership' prerequisites
+        Steps:  1. Add 'Membership' prerequisites to campaign from DB
+                2. Add 'Membership Is Active' to Influencer from DB
+                3. Go to https://dev.ambassadher.co/Opportunity/[campaignId]
+
+                ER: 1. Display 'Apply' button
+                </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">DisplayWarningStatusForCountryPrerequisites</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">TestCase #1903
+        Title: Check that display warning Status for 'Country' Prerequisites
+        Steps:  1. Add '[geoCountryCode]=UnitedStates' prerequisites to campaign from DB
+                2. Add '[addressCountryCode]=Canada' to Influencer from DB
+                3. Go to https://dev.ambassadher.co/Opportunity/[campaignId]
+
+                ER: 1. Display 'You do not currently meet the requirements for this Opportunity' status
+                </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">DisplayWarningStatusForSeveralPrerequisites</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">TestCase #1907
+        Title: Check that display warning Status for several Geo Prerequisites
+        Steps:  1. Add [geoCountryCode], [geoCity], [geoPostal] prerequisites with one values to DB 
+                2. Add [geoCountryCode], [geoCity], [geoPostal] prerequisites with another values to DB 
+                3. Add to Influencer another from step 1 and step 2 geo data to DB
+                3. Go to https://dev.ambassadher.co/Opportunity/[campaignId]
+
+                ER: 1. Display 'You do not currently meet the requirements for this Opportunity.' status
+                </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">DisplayWarningStatusWithCityPrerequisites</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">TestCase #1904
+        Title: Check that display warning Status for 'City' Prerequisites
+        Steps:  1. Add '[geoCity]' prerequisites to campaign from DB
+                2. Add another '[addressCity]' to Influencer from DB
+                3. Go to https://dev.ambassadher.co/Opportunity/[campaignId]
+
+                ER: 1. Display 'You do not currently meet the requirements for this Opportunity' status
+                </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">DisplayWarningStatusWithPostalPrerequisites</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">TestCase #1905
+        Title: Check that display warning Status  for 'Postal' Prerequisites
+        Steps:  1. Add '[geoPostal]' prerequisites to campaign from DB
+                2. Add another '[addressPostal]' to Influencer from DB
+                3. Go to https://dev.ambassadher.co/Opportunity/[campaignId]
+
+                ER: 1. Display 'You do not currently meet the requirements for this Opportunity' status
+                </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">DisplayWarningStatusWithTurnOnMembershipPrerequisites</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">TestCase #1741
+        Title: Check that 'Apply' button does not display for Influencer which are not included in the 'Membeship' range of values
+        Steps:  1. Add 'Membership' prerequisites to campaign from DB
+                2. Add 'Membership Is Not Active' to Influencer from DB
+                3. Go to https://dev.ambassadher.co/Opportunity/[campaignId]
+
+                ER: 1. Display 'You do not currently meet the requirements for this Opportunity' status
+                </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+	</div>
+
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">OpportunityDetailsTest</p> 
+													<p class="duration text-sm">0h:0m:0s+001ms</p> 
+													<span class="datetime">09:57:34 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">OpportunityDetailsTest</h5>
+															<span class='badge badge-success'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-danger'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-default'>0h:0m:0s+001ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+One or more child tests had errors									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+<div class="mt-4">
+	
+	<div class="accordion">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckAppliedInfluencerStatusForCampaign</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                    TestCase #641
+                    Title: Check that 'Applied' status is displayed instead of 'Apply' button if CampaignInfluencerStatus = Applied
+                    Steps: 
+                    1. Add Influencer to Campaign with status 'Applied' in DB
+                    2. Go to 'https://dev.ambassadher.co/Opportunities[OpportunitiesId]'
+                    
+                    ER: 'Your application is being reviewed.' status are displayed
+                        'Apply' button is not displayed 
+                    </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckCompletdInfluencerStatusForCampaign</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                    TestCase #646
+                    Title: Check that 'Your submission is being reviewed.' message are displayed if CampaignInfluencerstatus = Completed
+                    Steps: 
+                    1. Add Influencer to Campaign with status 'Completd' in DB
+                    2. Go to 'https://dev.ambassadher.co/Opportunities[OpportunitiesId]'
+                    
+                    ER: 'Your submission is being reviewed.' status are displayed
+                        'Submit' and 'Apply' buttons are not display 
+                    </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckDedleineInfluencerStatusOnOpportunitiesDetail</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                    TestCase #1465
+                    Title: Check that display status if Campaign EndDate in past for InfluencerCampaignStatus = 'Enrolled'
+                    Steps: 
+                    1. Add Influencer to Campaign with PastEndDate with status 'Enrolled' in DB
+                    2. Go to 'https://dev.ambassadher.co/Opportunities[OpportunitiesId]'
+                    
+                    ER: 'Deadline for submission has passed' status are displayed
+                        'Submit' and 'Apply' buttons are not display 
+                    </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckDedleineInfluencerStatusOnOpportunitiesSearch</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                    TestCase #1466
+                    Title: Check that display status if Campaign EndDate in past for InfluencerCampaignStatus = 'Enrolled'
+                    Steps: 
+                    1. Add Influencer to Campaign with PastEndDate and isEnded = 0 with status 'Enrolled' in DB
+                    2. Go to 'https://dev.ambassadher.co/Opportunities/'
+                    
+                    ER: 'Deadline for submission has passed' status are displayed
+                        'Submit' and 'Apply' buttons are not display 
+                    </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>OpenQA.Selenium.WebDriverException : unknown error: Element <div class="radio-tab-button radio-tab-button-left">...</div> is not clickable at point (526, 410). Other element would receive the click: <div class="loadingoverlay" style="box-sizing: border-box; position: fixed; display: flex; flex-flow: column nowrap; align-items: center; justify-content: space-around; background: rgba(255, 255, 255, 0.8); top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2147483647; opacity: 1;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17763 x86_64)at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at Core.Framework.PageObjects.OpportunitiesPage.ClickCmpaignInfluencerStatusFilter(String status) in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\PageObjects\OpportunitiesPage.cs:line 140
+   at InfluencerPortal.Tests.OpportunityDetailsTest.CheckDedleineInfluencerStatusOnOpportunitiesSearch() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\OpportunityDetailsTest.cs:line 341</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckEnrolledInfluencerStatusForCampaign</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                    TestCase #643
+                    Title: Check that 'You were enrolled in this Opportunity 0 day ago' message are displayed if CampaignInfluencerstatus = Enrolled
+                    Steps: 
+                    1. Add Influencer to Campaign with status 'Enrolled' in DB
+                    2. Go to 'https://dev.ambassadher.co/Opportunities[OpportunitiesId]'
+                    
+                    ER: 'You were enrolled in this Opportunity 0 day ago' status are displayed
+                        'Submit' button is display
+                    </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckInvitedInfluencerStatusForCampaign</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                    TestCase #642
+                    Title: Check that 'Apply' button and 'You were invited to apply for this Opportunity 0 day ago' status are displayed (Campaign Influencer Status = Invited)
+                    Steps: 
+                    1. Add Influencer to Campaign with status 'Invited' in DB
+                    2. Go to 'https://dev.ambassadher.co/Opportunities[OpportunitiesId]'
+                    
+                    ER: 'You are invited to apply for this opportunity.' status are displayed
+                        'Apply' button is displayed 
+                    </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckNotSelectedInfluencerStatusForCampaign</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                    TestCase #645
+                    Title: Check that 'You have not been selected for this opportunity.' message are displayed if CampaignInfluencerstatus = NOTSELECTED
+                    Steps: 
+                    1. Add Influencer to Campaign with status 'NOTSELECTED' in DB
+                    2. Go to 'https://dev.ambassadher.co/Opportunities[OpportunitiesId]'
+                    
+                    ER: 'You have not been selected for this opportunity' status are displayed
+                        'Submit' and 'Apply' button are not display 
+                    </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">CheckSubmitedInfluencerStatusForCampaign</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+							<div class="description">
+                    TestCase #644
+                    Title: Check that 'Your submission is being reviewed.' status is displayed after user send filled-in submission form
+                    Steps: 
+                    1. Add Influencer to Campaign with status 'Published' in DB
+                    2. Go to 'https://dev.ambassadher.co/Opportunities[OpportunitiesId]'
+                    
+                    ER: 'Your submission is being reviewed.' status is displayed on current Campaign preview block
+                        'Submit' and 'Apply' button are not display 
+                    </div>
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+	</div>
+
+</div>
+											</div>
+										</li>
+										<li class="test-item" status="fail" author="" device="" tag=""> 
+											<div class="status-avatar fail-bg">
+												<i class="fa fa-times text-white"></i>
+											</div>
+											<div class="open-test">
+												<div class="test-detail"> 
+													<p class="name">OpportunityDetaiProductlBlockTests</p> 
+													<p class="duration text-sm">0h:0m:0s+005ms</p> 
+													<span class="datetime">09:57:34 AM</span>
+												</div>
+											</div>
+											<div class="test-contents d-none">
+												<div class="detail-head">
+													<div class="p-v-10 d-inline-block">	
+														<div class="info">
+															<h5 class="test-status text-fail">OpportunityDetaiProductlBlockTests</h5>
+															<span class='badge badge-success'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-danger'>4/17/2019 9:57:34 AM</span>
+															<span class='badge badge-default'>0h:0m:0s+005ms</span>
+														</div>
+																											</div>
+												</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+One or more child tests had errors									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+<div class="mt-4">
+	
+	<div class="accordion">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsDisplayedInfluencerStatusEngagedIsVisibleIsntPublic("ENROLLED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsDisplayedInfluencerStatusEngagedIsVisibleIsntPublic("COMPLETED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsDisplayedInfluencerStatusEngagedIsVisibleIsntPublic("SUBMITTED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsDisplayedInfluencerStatusEngagedIsVisibleIsPublic("ENROLLED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsDisplayedInfluencerStatusEngagedIsVisibleIsPublic("COMPLETED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsDisplayedInfluencerStatusEngagedIsVisibleIsPublic("SUBMITTED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsDisplayedNOTEngagedIsVisibleIsPublic("APPLIED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsDisplayedNOTEngagedIsVisibleIsPublic("INVITED")</div>
+						<div class="status-avatar float-right fail-bg">
+							<i class="fa fa-times text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-times text-fail"></i></td>
+				<td>09:57:34</td>
+				<td>
+<textarea disabled class='code-block'>Product isn't displayed for user with CampaignInfluencerStatus NOt Engaged Is Visible Is Public
+  Expected is <System.Collections.Generic.List`1[System.String]> with 3 elements, actual is <System.Collections.Generic.List`1[System.String]> with 1 elements
+  Values differ at index [1]
+  Missing:  < "Foo", "Product tes test" >
+TearDown : System.ArgumentException : Illegal characters in path.at InfluencerPortal.Tests.OpportunityDetaiProductlBlockTests.ProductIsDisplayedNOTEngagedIsVisibleIsPublic(String status) in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\InfluencerPortalProject\Tests\OpportunityDetaiProductlBlockTests.cs:line 237
+
+--TearDown
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetFileName(String path)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)
+   at Core.Framework.BaseTest.TearDown() in C:\Users\Anuitex\Source\Repos\InfluencerPortal2\InfluencerTests\Core\Framework\BaseTest.cs:line 56</textarea>									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsDisplayedNOTEngagedIsVisibleIsPublic("NOTSELECTED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsntDisplayedInfluencerStatusEngagedIsntVisibleIsntPublic("ENROLLED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsntDisplayedInfluencerStatusEngagedIsntVisibleIsntPublic("COMPLETED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsntDisplayedInfluencerStatusEngagedIsntVisibleIsntPublic("SUBMITTED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsntDisplayedInfluencerStatusEngagedIsntVisibleIsPublic("ENROLLED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsntDisplayedInfluencerStatusEngagedIsntVisibleIsPublic("COMPLETED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsntDisplayedInfluencerStatusEngagedIsntVisibleIsPublic("SUBMITTED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsntDisplayedNotEngagedIsntVisibleIsntPublic("APPLIED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsntDisplayedNotEngagedIsntVisibleIsntPublic("INVITED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsntDisplayedNotEngagedIsntVisibleIsntPublic("NOTSELECTED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsntDisplayedNOTEngagedIsntVisibleIsPublic("APPLIED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsntDisplayedNOTEngagedIsntVisibleIsPublic("INVITED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsntDisplayedNOTEngagedIsntVisibleIsPublic("NOTSELECTED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsntDisplayedNotEngagedIsVisibleIsntPublic("APPLIED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsntDisplayedNotEngagedIsVisibleIsntPublic("INVITED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">ProductIsntDisplayedNotEngagedIsVisibleIsntPublic("NOTSELECTED")</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+						
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>09:57:34</td>
+				<td>
+Pass									</td>
+			</tr>
+	</tbody>
+</table>
+											</div>
+				</div>
+			</div>
+	</div>
+
+</div>
+											</div>
+										</li>
+                                </ul>    
+                            </div>
+                        </div>
+                        <div class="test-content scrollable">
+                            <div class="test-content-tools">
+                                <ul>
+                                    <li>
+                                        <a class="back-to-test" href="javascript:void(0)">
+                                            <i class="fa fa-arrow-left"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="test-content-detail">
+                                <div class="detail-body"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script type='text/javascript'>
+	
+</script>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/f97b667/spark/js/script.js"></script>
+
+</body>
+
+</html>
